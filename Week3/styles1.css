@@ -8,3 +8,36 @@ body {
                         "footer footer";
 }
 
+header {
+    background-color: blue;
+    grid-area: header;
+}
+
+nav {
+    background-color: aqua;
+    grid-area: nav;
+}
+
+main {
+    background-color: darkkhaki;
+    grid-area: main;
+}
+
+aside {
+    background-color: darkseagreen;
+    grid-area: aside;
+}
+
+footer {
+    background-color: brown;
+    grid-area: footer;
+}
+
+ul {
+  display:flex;  
+  list-style:none;
+}
+
+li {
+    margin-right: 30%;
+}

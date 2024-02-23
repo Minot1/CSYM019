@@ -11,7 +11,15 @@ function changeHeader(newHeader) {
     element.firstChild.nodeValue = newHeader;
 }
 
+function changeParagraph(newHeader) {
+    var element = document.getElementById("page-p");
+    element.firstChild.nodeValue = newHeader;
+}
 
-document.addEventListener("DOMContentLoaded", () => changeHeader("New heading"));
+
+document.addEventListener("DOMContentLoaded", () => {
+    changeHeader("New heading");
+    changeParagraph("New p");
+});
 // changeHeader("New heading");
 

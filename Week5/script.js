@@ -13,6 +13,5 @@ function myInterval() {
 
 document.addEventListener("DOMContentLoaded", () => {
     whenLoaded();
+    setInterval(myInterval, 100)
 });
-
-setInterval(myInterval, 100)

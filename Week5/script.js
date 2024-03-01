@@ -1,7 +1,7 @@
 function whenLoaded() {
     var element = document.getElementById("circle");
     element.addEventListener("click", () => {
-        alert("Pressed.");
+        element.style.opacity = 0.5;
     });
 }
 
